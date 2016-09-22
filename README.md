@@ -1,4 +1,4 @@
-# ShiftLeft Runner Web Showcase
+# Bleacher Creatures Web Automation
 
 
 ## Install
@@ -16,18 +16,9 @@ $ npm install
 ### on Mac
 ```
 # Run single test suite with Chrome
-./node_modules/.bin/shiftleft-runner --test tests/google-express-search.js --config conf/shift_conf.json --browsers chrome --testers 1
+./node_modules/.bin/shiftleft-runner --test tests/bleacher-checkout.js --config conf/shift_conf.json --browsers chrome --testers 1
 ```
 
-```
-# Run single test suite with Chrome and Firefox
-./node_modules/.bin/shiftleft-runner --test tests/google-express-search.js --config conf/shift_conf.json --browsers chrome,firefox --testers 2
-```
-
-```
-# Run single test suite with Chrome and tag
-./node_modules/.bin/shiftleft-runner --test tests/google-express-search.js --config conf/shift_conf.json --browsers chrome --testers 1 --tags smoke
-```
 
 ## Running Tests on safari
 
