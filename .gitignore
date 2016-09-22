@@ -9,6 +9,9 @@ lib-cov
 *.swp
 .DS_Store
 .idea
+temp
+selenium-debug.log
+
 mocha_report.json
 mocha_report.xml
 
