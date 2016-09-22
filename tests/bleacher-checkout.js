@@ -27,7 +27,17 @@ module.exports = new BaseTest({
 
   "add to cart": function (client) {
     client
-      .clickElement("button[title=Add to Cart]")
+      .clickElement("button[title='Add to Cart']")
+  },
+
+  "click on checkout": function (client) {
+    client
+      .clickElement(".checkout-now")
+  },
+
+  "click on checkout now": function (client) {
+    client
+      .clickElement("button[title='Checkout Now']")
   }
 
 });
