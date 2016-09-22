@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="googleshopping-search"
+    errors="0" failures="0" hostname="" id="" package="googleshopping-search" skipped="0"
+    tests="5" time="16.12" timestamp="Thu, 21 Apr 2016 07:20:11 GMT">
+  
+    <testcase name="open google express" time="6.401" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="search for kindle fire" time="3.160" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="verify search result" time="0.8320" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="expand best match item area" time="0.3500" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="go to detail page" time="5.376" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+{
+  "framework": "nightwatch",
+  "framework_config": "./conf/nightwatch.json",
+  "capabilities_config": "./conf/capabilities.json",
+  "bail_rate": 1,
+  "reporters": [],
+  "plugins": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "web-automation-test",
+  "version": "0.0.1",
+  "description": "web automation test showcaes",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch --config ./conf/nightwatch.json --test ./tests/order-delivery.js"
+  },
+  "dependencies": {
+    "config": "~1.19.0",
+    "nightwatch": "^0.8.18",
+    "selenium-server": "^2.53.0",
+    "chromedriver": "^2.21.0",
+    "lodash": "^4.1.0",
+    "shiftleft-runner": "git+https://git@github.com:shift-left/shiftleft-runner.git#master",
+    "shiftleft-nightwatch": "git+https://git@github.com:shift-left/shiftleft-nightwatch.git#master"
+  },
+  "devDependencies": {}
+}
