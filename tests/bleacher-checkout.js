@@ -38,6 +38,15 @@ module.exports = new BaseTest({
   "click on checkout now": function (client) {
     client
       .clickElement("button[title='Checkout Now']")
+  },
+
+  "set shipping information": function (client) {
+    client
+      .clickElement("#login-email")
+      .setElementValue("input[id='login-email']", "test@g.com")
+      .setElementValue("input[id='shipping:fullname']", "Test Joe")
+      .setElementValue("input[title='Street Address']", "test@g.com")
+      .clickElement("button[type=submit]");
   }
 
 });
